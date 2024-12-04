@@ -17,9 +17,9 @@ function App() {
         <Route path="/register" element={<Register />} />
         
         <Route 
-          path="/admin" element={<PrivateRoute role="ADMIN"><AdminDashboard /></PrivateRoute> } />
+          path="/ADMIN" element={<PrivateRoute role="ADMIN"><AdminDashboard /></PrivateRoute> } />
         <Route 
-          path="/user" element={<PrivateRoute role="USER"><UserDashboard /></PrivateRoute> }/>
+          path="/USER" element={<PrivateRoute role="USER"><UserDashboard /></PrivateRoute> }/>
         
           </Routes>
     
